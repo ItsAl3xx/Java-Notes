@@ -106,3 +106,69 @@ headers, method headers, or braces.
    - Help document and explain the code
 
 #### 2.2 The print and print ln Methods, and Java API
+
+- Concept: The print and println methods are used to display text output. They 
+           are a part of the Java API, which is a collection of prewritten classes and
+           methods for performing specific operations.
+
+
+Code Listing 2-2 (Simple.java)
+// another simple Java Program
+
+public class Simple {
+    public static void main (String[]args){
+        System.out.print ("Programming is ");
+        System.out.println("great fun!");
+    }
+
+}
+
+Prgram output: 
+Programming is great fun!
+
+
+- The println method does not advance the cursor to the next line after its message is displayed. 
+
+Code Listing 2-3 (Simple.java)
+// another simple Java Program
+
+public class Simple {
+    public static void main (String[]args){
+        System.out.print ("Programming is ");
+        System.out.println("great fun!");
+    }
+}
+
+Program output:
+Programming is great fun!
+
+Code listing 2-6 (Simple.java)
+
+public class Simple {
+    public static void main (String[]args){
+      System.out.print("These are our top sellers:\n");
+      System.out.print("\tComputer games\n\tCoffee\n");
+      System.out.println("\tAspirin");
+    }
+}
+
+Program output:
+These are our top sellers:
+        Computer games
+        Coffee
+        Aspirin
+
+Table 2-2 Common Escape Sequences
+
+Escape
+Sequence | Name            | Description
+---------|-----------------|--------------------------------
+\n       | Newline         | Moves the cursor to the beginning of the next line
+\t       | Horizontal Tab  | Moves the cursor to the next tab stop
+\b       | Backspace       | Moves the cursor back one position
+\r       | Carriage Return | Moves the cursor to the beginning of the current line
+\\       | Backslash       | Displays a backslash character
+\'       | Single Quote    | Displays a single quote character
+\"       | Double Quote    | Displays a double quote character
+
+## 2.3 Variables and literals
